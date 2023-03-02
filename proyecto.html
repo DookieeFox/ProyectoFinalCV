@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+   
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="rdlz9GAH_400x400.jpg">
+    <link rel="stylesheet" href="./webfonts/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Alan Leonel Pedro</title>
+</head>
+<body>
+    <header>
+        <h1>Alan Leonel Pedro</h1>
+    </header>
+      
+    <h2 id="jugadorprofesional">Jugador Profesional Esport</h2>
+
+    <p id="barra-colores-1"></p>
+ 
+    <div class="Datos">
+
+        <img src="rdlz9GAH_400x400.jpg" alt="Imagen de hombre cv" id="imagen-CV">
+
+    <h2><i class="fa-solid fa-circle-user"></i> Datos Personales</h2>
+    <ul>
+        <li>Fecha de Nacimiento: 20-03-1992</li>
+        <li>Nacionalidad: Argentina</li>
+        <li>Residencia: Buenos Aires</li>
+    </ul>
+    <h2><i class="fa-solid fa-laptop-code"></i> Hard Skills</h2>
+    
+    <div class="Hard-Skills">
+
+        <div class="circular-progress-1">
+            <div class="outer-1">
+                <div class="inner-1">
+                    <div id="number-1"><h3 id="idioma1">Inglés</h3>85%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-1">
+                        <stop offset="0%" stop-color="#F6F72D"/>
+                        <stop offset="100%" stop-color="#F72D6A"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-1" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+    
+        </div>
+        
+    <h2><i class="fa-solid fa-palette"></i> Soft Skills</h2>
+    <ul>
+        <li>Organización</li>
+        <li>Trabajo en Equipo</li>
+        <li>Creatividad</li>
+    </ul>
+
+    <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2> 
+    <ul>
+        <li>Secundario Completo</li>
+        <li>Gastronomia Uthgra</li>
+        <li>Cens 455 contabilidad</li>
+    </ul>
+    
+    <h2><i class="fa-solid fa-certificate"></i> Clasificaciones</h2>
+    <ul>
+        <li>Capcom Cup 2023 California 
+            <button onclick="window.open('./mundialstreetfighter.jpg')" 
+            id="Boton-Certificado-1">Mostrar Certificado</button>
+        </li>
+    </ul>
+
+    <p id="barra-colores-3"></p>
+
+    <h2><i class="fa-solid fa-briefcase"></i> Torneos</h2>
+    <ol>
+        <li>
+            <h3>Capcom Pro tour 2022 sudamerica</h3>
+            <h4>1 Puesto</h4>
+            <ul>
+                <li>Entre 150 jugadores de latam
+                </li>
+                <li>Primer Argentino Campeon De Sudamerica</li>
+            
+            <button type="button"
+          class="btn" onclick="portadadiario()"> Potada Diario Perfil</button>
+          <script src="link.js"></script>
+                
+            </ul>
+        </li>
+        <li>
+            <h3>Battle Coliseum Brasil 2022</h3>
+            <h4>4 Puesto</h4>
+            <ul>
+                <li>Entre 200 jugadores</li>
+                
+            </ul>
+        </li>
+        <li>
+            <h3>Cordoba Showdown 2023</h3>
+            <h4>1 Puesto</h4>
+            <ul>
+                <li>Entre 60 jugadores</li>
+                <button type="button"
+          class="btn" onclick="redireccion()"> Final Del Torneo</button>
+          
+                
+                
+            </ul>
+        </li>
+    </ol>
+
+</div>
+<script src="link.js"></script>
+
+
+</body>
+<footer>
+    <p id="barra-colores-2"></p>
+  
+    <button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+    <p id="telefono"></p>
+
+    <script>
+         function MostrarTelefono(){
+            document.getElementById("telefono").innerHTML = "011-44487137 // alanpedro@hotmail.com.ar";
+         }
+    </script>
+
+</footer>
+
+</html>
