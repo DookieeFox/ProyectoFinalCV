@@ -103,7 +103,7 @@ h3{
     padding-inline-start: 0;
 }
 
-.circular-progress-1,.circular-progress-2,.circular-progress-3{
+.circular-progress-1{
     width: 160px;
     height: 160px;
     position: relative;
